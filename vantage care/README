@@ -1,0 +1,37 @@
+# 📌 Vantage Care Project
+
+This repository contains the complete **Vantage Care rostering system** with three main parts:
+
+- **VantageCareServer/** → Backend **server and APIs** (Node.js + Express).  
+- **VantageCareWebVite-main/** → Frontend for the **web application** (React.js + Vite).  
+- **VantageCare-main/** → Frontend for the **mobile application** (React Native).  
+
+---
+
+## 🚀 How to Run the Project
+
+⚠️ **Important:** Always start the **server first**, then run the **web** and **app** frontends.
+
+### 1️⃣ Run the Server
+```bash
+cd VantageCareServer
+node index.js
+
+cd VantageCareWebVite-main
+npm install
+npm run dev
+
+### 2️⃣ Run the Web App
+cd VantageCareWebVite-main
+npm install
+npm run dev
+
+### 3️⃣ Run the Mobile App
+cd VantageCare-main
+yarn install
+yarn start
+
+📖 Project Overview
+Server → Handles authentication, APIs, messaging, shift assignment, and notifications.
+Web → Admin dashboard for managing shifts, staff, and certificates.
+App → Staff-facing mobile app for shifts, messages, notifications, and certificate upload.
